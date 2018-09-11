@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarStyle">@style/appBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- App bar style -->
+    <style name="appBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Remove the shadow below the app bar -->
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Style for a tab that displays a category name -->
+    <style name="categoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/app_background</item>
+        <item name="tabSelectedTextColor">@color/app_background</item>
+        <item name="tabTextAppearance">@style/categoryTabTextAppearance</item>
+    </style>
+
+    <!-- Text Appearance style for a category tab -->
+    <style name="categoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/secondary_text</item>
+    </style>
+
+    <!-- Style for a Title Text in all the Lists i.e Names of Locations -->
+
+    <style name="titleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/text_view_height</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- Style for a other Text in all the Lists i.e Address, Opening Days and other information -->
+    <style name="secondaryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/text_view_height</item>
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:background="@color/app_background"
+    android:minHeight="@dimen/list_item_height">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:contentDescription="@string/content_description"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:id="@+id/text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/image"
+        android:layout_toRightOf="@id/image"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <TextView
+            android:id="@+id/titleText"
+            style="@style/titleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_view_height"
+            tools:text="@string/market_wuse" />
+
+        <TextView
+            android:id="@+id/secondaryTextOne"
+            style="@style/secondaryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_view_height"
+            android:layout_below="@id/titleText"
+            tools:text="@string/market_wuse_address" />
+
+        <TextView
+            android:id="@+id/secondaryTextTwo"
+            style="@style/secondaryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_view_height"
+            android:layout_below="@id/secondaryTextOne"
+            tools:text="@string/open_everyday" />
+
+        <TextView
+            android:id="@+id/secondaryTextThree"
+            style="@style/secondaryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/text_view_height"
+            android:layout_below="@id/secondaryTextTwo"
+            tools:text="@string/eight_am_to_six_pm" />
+    </RelativeLayout>
+</RelativeLayout>

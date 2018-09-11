@@ -1,0 +1,118 @@
+<resources>
+    <!-- Title for the Application -->
+    <string name="app_name">Tour Guide App: Abuja, Nigeria</string>
+
+    <!-- Location Category names -->
+    <string name="category_sights">Sights</string>
+    <string name="category_parks">Parks</string>
+    <string name="category_hotels">Hotels</string>
+    <string name="category_markets">Markets</string>
+
+    <!-- List of Sights and short descriptions of them -->
+    <string name="sight_aso_rock">Aso Rock</string>
+    <string name="sight_aso_rock_desc1">Towering at a height of 1,300ft, Aso</string>
+    <string name="sight_aso_rock_desc2">Rock is the most noticeable feature</string>
+    <string name="sight_aso_rock_desc3">in Abuja.</string>
+    <string name="sight_zuma_rock">Zuma Rock</string>
+    <string name="sight_zuma_rock_desc1">Zuma Rock is a large monolith, an</string>
+    <string name="sight_zuma_rock_desc2">igneous intrusion comprising of</string>
+    <string name="sight_zuma_rock_desc3">gabbro and granodiorite. </string>
+    <string name="sight_national_mosque">Abuja National Mosque</string>
+    <string name="sight_national_mosque_desc1">Also known as the Nigerian National</string>
+    <string name="sight_national_mosque_desc2">Mosque. It is the primary Muslim</string>
+    <string name="sight_national_mosque_desc3">place of Worship in Abuja.</string>
+    <string name="sight_national_church">National Church of Nigeria</string>
+    <string name="sight_national_church_desc1">This is the primary Christian place</string>
+    <string name="sight_national_church_desc2">of worship in Nigeria. It is an</string>
+    <string name="sight_national_church_desc3">inter-denominational church building.</string>
+    <string name="sight_yaradua_centre">Shehu Musa Yar\'Adua Centre</string>
+    <string name="sight_yaradua_centre_desc1">Prominently located at One Memorial</string>
+    <string name="sight_yaradua_centre_desc2">Drive, the Yar\'Adua Centre serves as</string>
+    <string name="sight_yaradua_centre_desc3">a hub for social and civic events.</string>
+    <string name="sight_eagle_square">The Eagle Square</string>
+    <string name="sight_eagle_square_desc1">The Eagle Square is used for hosting</string>
+    <string name="sight_eagle_square_desc2">the National Day parade and the</string>
+    <string name="sight_eagle_square_desc3">Presidential Swearing-in ceremony.</string>
+    <string name="sight_national_arboretum">National Arboretum</string>
+    <string name="sight_national_arboretum_desc1">The arboretum was established for the</string>
+    <string name="sight_national_arboretum_desc2">conservation of genetic resources for</string>
+    <string name="sight_national_arboretum_desc3">research and other scientific uses.</string>
+    <string name="sight_arts_village">Abuja Arts and Crafts Village</string>
+    <string name="sight_arts_village_desc1">The Abuja arts and crafts village is</string>
+    <string name="sight_arts_village_desc2">being managed as a tourist sight by the</string>
+    <string name="sight_arts_village_desc3">National Council for Arts and Culture.</string>
+
+    <!-- List of Parks and their addresses -->
+    <string name="park_millennium">Millennium Park</string>
+    <string name="park_millennium_address">Three Arms Zone, Abuja</string>
+    <string name="park_abuja_central">Abuja Central Park</string>
+    <string name="park_abuja_central_address">Plot 174, Kur Mohammed Avenue</string>
+    <string name="park_circle_gardens">Circle Gardens</string>
+    <string name="park_circle_gardens_address">942, Aguiyi Ironsi St, Wuse</string>
+    <string name="park_city">City Park</string>
+    <string name="park_city_address">136, Ademola Adetokunbo Crescent</string>
+    <string name="park_maitama">Maitama Amusement Park</string>
+    <string name="park_maitama_address">Ibrahim Babangida Way, Maitama</string>
+    <string name="park_magicland">Magic Land Amusement Park</string>
+    <string name="park_magicland_address">1, Kukwaba Hills, Durumi,</string>
+    <string name="park_national_children">National Children\'s Park</string>
+    <string name="park_national_children_address">Asokoro Extension, Asokoro</string>
+    <string name="park_durban_street">Durban Street Neighborhood Park</string>
+    <string name="park_durban_street_address">Durban Street, Church Gate Tower</string>
+
+    <!-- List of Hotels, their addresses and average rates per night -->
+    <string name="hotel_sheraton">Sheraton Abuja Hotel</string>
+    <string name="hotel_sheraton_address">Ladi Kwali Way, Maitama</string>
+    <string name="hotel_sheraton_rate">₦108,900 per night</string>
+    <string name="hotel_nicon">Nicon Luxury Hotel</string>
+    <string name="hotel_nicon_address">Plot 903, Tafawa Balewa Way</string>
+    <string name="hotel_nicon_rate">₦44,420 per night</string>
+    <string name="hotel_transcorp">Transcorp Hilton Abuja</string>
+    <string name="hotel_transcorp_address">1, Aguiyi Ironsi Street, Maitama</string>
+    <string name="hotel_transcorp_rate">₦92,000 per night</string>
+    <string name="hotel_grand">Grand Ibro Hotel</string>
+    <string name="hotel_grand_address">2121, Micheal Okpara Road</string>
+    <string name="hotel_grand_rate">₦10,000 per night</string>
+    <string name="hotel_bolton">Bolton White Hotel</string>
+    <string name="hotel_bolton_address">7, Gwandu Street</string>
+    <string name="hotel_bolton_rate">₦40,000 per night</string>
+    <string name="hotel_fraser">Fraser Suites</string>
+    <string name="hotel_fraser_address">Plot 294, Leventis Close</string>
+    <string name="hotel_fraser_rate">₦120,000 per night</string>
+    <string name="hotel_rockview">Rockview Hotel Classic</string>
+    <string name="hotel_rockview_address">Plot 194, Cadastral Zone A8</string>
+    <string name="hotel_rockview_rate">₦26,450 per night</string>
+
+    <!-- List of Markets and Addresses -->
+    <string name="market_wuse">Wuse Market</string>
+    <string name="market_wuse_address">24, Wuse Market Road, Wuse</string>
+    <string name="market_fruit">Fruit Market</string>
+    <string name="market_fruit_address">Martin Luther Street, Asokoro</string>
+    <string name="market_garki">Garki International Market</string>
+    <string name="market_garki_address">Damaturu Crescent, Garki</string>
+    <string name="market_fish">FCT Fish Market</string>
+    <string name="market_fish_address">194 or 199 Zuba Garki Road, Gwarinpa</string>
+    <string name="market_dutse">Dutse Market</string>
+    <string name="market_dutse_address">1, Bwari Express Road</string>
+    <string name="market_maitama_farmers">Maitama Farmers\' Market</string>
+    <string name="market_maitama_farmers_address">Yeserdam Crescent, Maitama</string>
+
+    <!-- List of Opening Days (For Markets and Parks only) -->
+    <string name="open_everyday">Open Everyday</string>
+    <string name="mondays_to_saturdays">Open Mondays to Saturdays</string>
+
+    <!-- List of Opening Hours (For Markets and Parks only) -->
+    <string name="eight_am_to_six_pm">8:00 &#8212; 18:00</string>
+    <string name="eight_am_to_nine_pm">8:00 &#8212; 21:00</string>
+    <string name="seven_am_to_six_pm">7:00 &#8212; 18:00</string>
+    <string name="six_am_to_ten_pm">6:00 &#8212; 22:00</string>
+    <string name="seven_am_to_ten_pm">7:00 &#8212; 22:00</string>
+    <string name="six_am_to_six_pm">6:00 &#8212; 18:00</string>
+    <string name="nine_am_to_nine_pm">9:00 &#8212; 21:00</string>
+    <string name="seven_thirty_am_to_six_pm">7:30 &#8212; 18:00</string>
+    <string name="nine_am_to_seven_pm">9:00 &#8212; 19:00 (11:00 &#8212; 19:00 Sun.)</string>
+    <string name="twenty_four_hours">24 hours</string>
+
+    <!-- Content Description for Image -->
+    <string name="content_description">Image</string>
+</resources>
